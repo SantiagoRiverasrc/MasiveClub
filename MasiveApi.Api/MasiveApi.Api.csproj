@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.25">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Masive.Domain\Masive.Domain.csproj" />
+    <ProjectReference Include="..\Masive.Infrastructure\Masive.Infrastructure.csproj" />
+    <ProjectReference Include="..\MasiveApp.Application\MasiveApp.Application.csproj" />
+  </ItemGroup>
+
+
+</Project>
